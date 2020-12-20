@@ -29,21 +29,24 @@ const styles = StyleSheet.create({
         fontSize:16,
         fontWeight:'bold'
     },
+   
     searchButton:{
-        position:'absolute',
-        top:20,
+        // position:'absolute',
+        // elevation: (Platform.OS === 'android') ? 50 : 0,
+        // zIndex:50,
+        // top:20,
         height:60,
         width:Dimensions.get('screen').width - 20,
-        zIndex:2,
         borderRadius:30,
         marginHorizontal:10,
         backgroundColor:'#fff',
         flexDirection:'row',
         justifyContent:'center',
         alignItems:'center',
-        elevation: (Platform.OS === 'android') ? 50 : 0
+        
 
     }
+ 
     
 
 });
