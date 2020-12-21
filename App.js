@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 
 import HomeScreen from './src/screens/Home'
+import SearchResultsScreen from './src/screens/SearchResults'
 
 import Post from './src/components/Post'
 
@@ -27,7 +28,8 @@ const post1 = feed[0]
       <SafeAreaView>
         
       {/* <HomeScreen/> */}
-      <Post post={post1}/>
+      {/* <Post post={post1}/> */}
+      <SearchResultsScreen/>
         
       </SafeAreaView>
     </>
