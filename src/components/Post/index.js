@@ -3,35 +3,38 @@ import { View,Text,Image } from 'react-native'
 import styles from './styles'
 
 const Post = (props) =>{
+
+    // console.warn(props)
+    const post = props.post;
     return(
         <View style={styles.container}>
                 <Image
                     style={styles.image}
-                    source={{uri:'https://a0.muscache.com/im/pictures/ba5abed5-b16c-438e-b1df-e00590b99857.jpg'}}
+                    source={{uri:post.image}}
                 />
 
                 {/* Bed and bedroom */}
-                <Text style={styles.bedrooms}>1 bed 1 bedroom</Text>
+                <Text style={styles.bedrooms}>{post.bed} bed {post.bedroom} bedroom</Text>
 
                 {/* type $ Description */}
                 <Text style={styles.description}>
-                Close proximity to the Airport,Railway Station,Mall,Main highway makes it one of the most convenient location
+                {post.type}. {post.title}
                 </Text>
 
                 {/* Old Price and new price */}
                 <Text style={styles.prices}>
                     <Text style={styles.oldPrice}>
-                        $38
+                        {post.oldPrice} 
                     </Text>
                     <Text style={styles.price}>
-                        $38
+                       {" "} {post.newPrice}
                     </Text>
                     
                     / night
 
                 </Text>
                 <Text style={styles.totalPrice}>
-                        $230 Total
+                        {post.totalPrice} Total
                     </Text>
                 {/* Total price */}
         </View>

@@ -16,14 +16,18 @@ import {
 import HomeScreen from './src/screens/Home'
 
 import Post from './src/components/Post'
+
+import feed from './assets/data/feed'
 const App: () => React$Node = () => {
+
+const post1 = feed[0]
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         
       {/* <HomeScreen/> */}
-      <Post/>
+      <Post post={post1}/>
         
       </SafeAreaView>
     </>
