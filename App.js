@@ -15,6 +15,7 @@ import {
 
 import HomeScreen from './src/screens/Home'
 import SearchResultsScreen from './src/screens/SearchResults'
+import DestinationSearchScreen from './src/screens/DestinationSearch'
 
 import Post from './src/components/Post'
 
@@ -29,7 +30,9 @@ const post1 = feed[0]
         
       {/* <HomeScreen/> */}
       {/* <Post post={post1}/> */}
-      <SearchResultsScreen/>
+      {/* <SearchResultsScreen/> */}
+
+      <DestinationSearchScreen />
         
       </SafeAreaView>
     </>
