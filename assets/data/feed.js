@@ -1,7 +1,7 @@
 export default [
   {
     id: '0',
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg',
+    image: 'https://a0.muscache.com/im/pictures/429b326f-dc4c-4f11-8697-256f25fb1d4b.jpg',
     type: 'Private Room',
     title: 'Bright room in the heart of the city',
     bed: 2,
@@ -16,7 +16,7 @@ export default [
   },
   {
     id: '1',
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg',
+    image: 'https://a0.muscache.com/im/pictures/miso/Hosting-41425317/original/17769307-8b39-4cfa-a0c1-e0fe1af5d61f.jpeg',
     type: 'Entire Flat',
     title: 'NEW lux. apartment in the center of Santa Cruz',
     bed: 3,
@@ -31,7 +31,7 @@ export default [
   },
   {
     id: '2',
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg',
+    image: 'https://a0.muscache.com/im/pictures/miso/Hosting-35775684/original/27f3dab0-df37-4891-b76f-66e403255a84.jpeg',
     type: 'Private Property',
     title: 'Green House Santa Cruz',
     bed: 2,
@@ -46,7 +46,7 @@ export default [
   },
   {
     id: '3',
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg',
+    image: 'https://a0.muscache.com/im/pictures/73089132-1917-4ea2-8825-dc811d0f8e24.jpg',
     type: 'Entire Flat',
     title: 'Typical canarian house',
     bed: 4,
